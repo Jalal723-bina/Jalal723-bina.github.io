@@ -1,0 +1,145 @@
+/* Contrast: #1f4e8c on white is about 8.6:1; #243044 on #f4f6fb is about 12.4:1. Both pass AA. */
+
+/* Set an easy-to-read page background, text, font, and line spacing. */
+body {
+    background-color: #f4f6fb;
+    color: #243044;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Give all headings a different font and a little extra letter spacing. */
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 1px;
+}
+
+/* Make the main page title large, white, and shadowed for the blue banner. */
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Add a blue color and a thin line below each section heading. */
+h2 {
+    border-bottom: 1px solid #c9d6ea;
+    color: #1f4e8c;
+    font-size: 1.8rem;
+    margin-top: 0;
+    padding-bottom: 0.3em;
+}
+
+/* Keep the smaller card heading close to the list below it. */
+.card h3 {
+    color: #1f4e8c;
+    margin-top: 0;
+}
+
+/* Add space below paragraphs. */
+p {
+    margin: 0 0 1rem;
+}
+
+/* Make the opening sentence larger and italic. */
+.intro {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Make ordinary links blue and bold while keeping their underline. */
+a {
+    color: #1f4e8c;
+    font-weight: bold;
+}
+
+/* Remove the underline while the pointer is over a regular link. */
+a:hover {
+    text-decoration: none;
+}
+
+/* Show a clear outline when a keyboard user tabs to a link. */
+a:focus-visible {
+    outline: 3px solid #d28b00;
+    outline-offset: 3px;
+}
+
+/* Make a full-width blue banner and center its white text. */
+.site-header {
+    background-color: #1f4e8c;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+/* Make the small line under the name uppercase and spaced out. */
+.tagline {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    margin: 0.5rem 0 0;
+    text-transform: uppercase;
+    word-spacing: 4px;
+}
+
+/* Keep the sections in a centered column that can shrink on small screens. */
+.container {
+    margin: 2rem auto;
+    max-width: 760px;
+    padding: 0 1rem;
+}
+
+/* Leave space below each section so the page is not crowded. */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Make the quick facts area look like a simple card. */
+.card {
+    background-color: white;
+    border: 1px solid #c9d6ea;
+    border-left: 6px solid #1f4e8c;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+}
+
+/* Use square bullets and indent the lists. */
+ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+/* Space out each bullet so the list is easy to scan. */
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Turn the email link into a comfortable button with white text. */
+.button {
+    background-color: #1f4e8c;
+    border-radius: 6px;
+    color: white;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.6em 1em;
+    text-decoration: none;
+}
+
+/* Darken the button when the pointer is over it. */
+.button:hover {
+    background-color: #16365f;
+}
+
+/* Separate and center the small gray footer text. */
+.site-footer {
+    border-top: 1px solid #c9d6ea;
+    color: #536174;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
